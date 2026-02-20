@@ -1,0 +1,89 @@
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+
+h2{
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+img {
+    border-style: none;
+    pointer-events: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+/* Variables */
+:root {
+    --text-main: #000;
+    --bg-primary: rgba(69, 96, 229, 1);
+}
+
+/* Global */
+* {
+    box-sizing: border-box;
+    cursor: default;
+    line-height: 1.2;
+}
+
+body {
+    color: var(--text-main);
+    line-height: 1;
+    font-family: "Segoe UI", Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+}
+
+a:hover {
+    display: block;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s all;
+}
+
+.content {
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.content__in {
+padding: var(--safe-area-inset-top, 18px) 18px var(--safe-area-inset-bottom, 18px) 18px;
+}
+
+
+.item{
+    margin: 30px 0;
+}
